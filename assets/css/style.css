@@ -1006,7 +1006,7 @@ form.news-letter .btn:hover{
 #contact-form  .col-sm-10{
 	position: relative;
 }
-.first-name-error,
+/*.first-name-error,
 .last-name-error,
 .contact-email-error,
 .contact-subject-error,
@@ -1043,7 +1043,7 @@ form.news-letter .btn:hover{
 	border-color: rgba(52, 152, 219,1) transparent  transparent transparent;
 	left: 25px;
 	bottom: -24px;
-}
+}*/
 #contact-loading{
 	display: none;
 	cursor: inherit;

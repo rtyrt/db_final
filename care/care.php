@@ -62,8 +62,8 @@
 					<p class="alert-warning"></p>
 
 					<div class="subscribe-hide">
-						<input class="form-control" type="email" id="subscribe-email" name="read_name" placeholder="Enter the animal care's id or animal's id !"  required>
-						<button  type="submit" id="subscribe-submit" class="btn" "><i class="fa fa-search"></i></button>
+						<input class="form-control"  id="subscribe-email" name="read_name" placeholder="Enter the animal care's id or animal's id !"  required>
+						<button  type="submit" id="subscribe-submit" class="btn"><i class="fa fa-search"></i></button>
 					</div><!-- /.subscribe-hide -->
 				</form><!-- /.news-letter -->
 
@@ -97,13 +97,13 @@
 				<form class="news-letter" action="insert.php" method="post">
 					<div class="subscribe-hide">
 
-						<input class="form-control" type="email" id="insert_caid" name="insert_caid" placeholder="Enter the animal care's id !"  required>
-						<input class="form-control" type="email" id="insert_aid" name="insert_aid" placeholder="Enter the animal's id"  required>
-						<input class="form-control" type="email" id="insert_eid" name="insert_eid" placeholder="Enter the employee's id !"  required>
-						<input class="form-control" type="email" id="insert_date" name="insert_date" placeholder="Enter the animal's checking date !"  required>
-						<input class="form-control" type="email" id="insert_health" name="insert_health" placeholder="Enter the animal's health information !"  required>
+						<input class="form-control"  id="insert_caid" name="insert_caid" placeholder="Enter the animal care's id !"  required>
+						<input class="form-control"  id="insert_aid" name="insert_aid" placeholder="Enter the animal's id"  required>
+						<input class="form-control"  id="insert_eid" name="insert_eid" placeholder="Enter the employee's id !"  required>
+						<input class="form-control"  id="insert_date" name="insert_date" placeholder="Enter the animal's checking date !"  required>
+						<input class="form-control"  id="insert_health" name="insert_health" placeholder="Enter the animal's health information !"  required>
 
-						<button class="btn4" "><i class="fa fa-chevron-circle-right"></i></button>
+						<button class="btn4"><i class="fa fa-chevron-circle-right"></i></button>
 					</div><!-- /.subscribe-hide -->
 				</form><!-- /.news-letter -->
 

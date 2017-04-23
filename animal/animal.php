@@ -56,15 +56,7 @@
 				<br>
 				</p><!-- /.section-description -->
 
-				<form class="news-letter" action="read.php" method="post">
-					<p class="alert-success"></p>
-					<p class="alert-warning"></p>
-
-					<div class="subscribe-hide">
-						<input class="form-control" type="email" id="subscribe-email" name="read_name" placeholder="Enter the animal's name / id / orders!"  required>
-						<button  type="submit" id="subscribe-submit" class="btn" "><i class="fa fa-search"></i></button>
-					</div><!-- /.subscribe-hide -->
-				</form><!-- /.news-letter -->
+				
 
 				<div id="time_countdown" class="time-count-container"></div><!-- /.time-count-container -->
 
@@ -96,11 +88,11 @@
 				<form class="news-letter" action="insert.php" method="post">
 					<div class="subscribe-hide">
 
-						<input class="form-control" type="email" id="inser_id" name="insert_id" placeholder="Enter the animal's id !"  required>
+						<input class="form-control" type="email" id="insert_id" name="insert_id" placeholder="Enter the animal's id !"  required>
 						<input class="form-control" type="email" id="insert_name" name="insert_name" placeholder="Enter the animal's name"  required>
 						<input class="form-control" type="email" id="insert_order" name="insert_order" placeholder="Enter the animal's orders!"  required>
 
-						<button class="btn1" "><i class="fa fa-chevron-circle-right"></i></button>
+						<button class="btn1"><i class="fa fa-chevron-circle-right"></i></button>
 
 						<span id="subscribe-loading" class="btn"> <i class="fa fa-refresh fa-spin"></i> </span>
 
